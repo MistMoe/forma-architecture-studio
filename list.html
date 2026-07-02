@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>项目列表 | VOID STUDIO</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <div id="cursorDot" class="cursor-dot"></div><div id="cursorRing" class="cursor-ring"></div>
+  <nav class="void-nav">
+    <div class="void-nav-inner">
+      <a class="brand hover-target" href="index.html"><span class="brand-mark">▪</span> VOID STUDIO</a>
+      <div class="nav-pill">
+        <a class="nav-link " href="index.html">首页</a>
+        <a class="nav-link " href="about.html">关于</a>
+        <a class="nav-link active" href="list.html">项目</a>
+        <a class="nav-link " href="category.html">分类</a>
+        <a class="nav-link " href="services.html">服务</a>
+        <a class="nav-link " href="process.html">流程</a>
+      </div>
+      <a class="btn-void nav-cta hover-target" href="contact.html">开始项目 →</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu">☰</button>
+      <div class="collapse mobile-menu" id="mobileMenu">
+        <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="about.html">关于</a><a class="nav-link" href="list.html">项目</a><a class="nav-link" href="category.html">分类</a><a class="nav-link" href="services.html">服务</a><a class="nav-link" href="process.html">流程</a><a class="nav-link" href="contact.html">联系</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="light-section">
+    <section class="page-hero page-shell">
+      <div class="kicker">Project Archive</div><h1 class="serif-title">PROJECTS</h1><p>通过编号、类型、地点与年份组织项目，使作品列表保持清晰的建筑档案感。</p>
+    </section>
+    <section class="page-shell section-pad-sm">
+      <div class="mb-4"><button class="btn-void btn-blue mr-2 mb-2" data-filter="all">全部</button><button class="btn-void mr-2 mb-2" data-filter="residence">住宅</button><button class="btn-void mr-2 mb-2" data-filter="civic">公共</button><button class="btn-void mr-2 mb-2" data-filter="interior">室内</button><button class="btn-void mb-2" data-filter="landscape">景观</button></div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4" data-category="residence" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-01-ribbon-house.jpg"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">01 / residence</div><h3 class="serif-title">Ribbon House</h3><p class="muted">流线混凝土体块沿台阶和水面展开，形成轻盈而安静的住宅入口。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="landscape" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-02-forest-deck.webp"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">02 / landscape</div><h3 class="serif-title">Forest Deck</h3><p class="muted">木平台嵌入林下庭院，让室内起居与树影、水面相互延伸。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="civic" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-03-tidal-pool.jpg"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">03 / civic</div><h3 class="serif-title">Tidal Pool</h3><p class="muted">洞穴式边界包裹水面和远海，形成安静的海岸休憩场景。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="interior" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-04-sculptural-suite.webp"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">04 / interior</div><h3 class="serif-title">Sculptural Suite</h3><p class="muted">几何开口把海岸光线引入卧室，使休憩空间具有柔和的雕塑感。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="interior" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-05-grey-chamber.webp"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">05 / interior</div><h3 class="serif-title">Grey Chamber</h3><p class="muted">低窗、暗墙和灰色体块压低声量，突出光线进入室内的方向。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="interior" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-06-line-garden.jpg"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">06 / interior</div><h3 class="serif-title">Line Garden</h3><p class="muted">树、苔藓与室内界面并置，形成东方庭院的克制秩序。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="civic" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-07-spiral-light.jpg"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">07 / civic</div><h3 class="serif-title">Spiral Light</h3><p class="muted">黑白楼梯以曲线引导视线，强化垂直交通的仪式感。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="civic" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-08-circular-stair.webp"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">08 / civic</div><h3 class="serif-title">Circular Stair</h3><p class="muted">旋转楼梯形成强烈的图形中心，突出尺度、路径和人的位置。</p></div><span>↗</span></div></div>
+        <div class="col-lg-4 col-md-6 mb-4" data-category="residence" data-reveal><a href="detail.html" class="image-card d-block hover-target" style="height:420px"><img src="images/list/list-09-vault-hall.jpg"></a><div class="d-flex justify-content-between mt-3"><div><div class="kicker">09 / residence</div><h3 class="serif-title">Vault Hall</h3><p class="muted">拱形结构以重复、明暗和静默的尺度塑造公共空间。</p></div><span>↗</span></div></div>
+      </div>
+      <nav><ul class="pagination justify-content-center mt-5"><li class="page-item disabled"><a class="page-link">Prev</a></li><li class="page-item active"><a class="page-link">1</a></li><li class="page-item"><a class="page-link">2</a></li><li class="page-item"><a class="page-link">Next</a></li></ul></nav>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="page-shell">
+      <h2 class="serif-title">VOID<br>STUDIO</h2>
+      <div class="footer-grid">
+        <div><p>以建筑、室内、庭院与材料气质为核心的空间工作室，关注光线、尺度、结构与人的日常经验。</p></div>
+        <div><p class="kicker">Pages</p><p><a href="index.html">Home</a></p><p><a href="list.html">Projects</a></p><p><a href="services.html">Services</a></p></div>
+        <div><p class="kicker">Studio</p><p><a href="about.html">About</a></p><p><a href="process.html">Process</a></p><p><a href="contact.html">Contact</a></p></div>
+        <div><p class="kicker">Contact</p><p>hello@voidstudio.cn</p><p>+86 020 2026 0705</p><p>Guangzhou / Online</p></div>
+      </div>
+      <small>© 2026 VOID STUDIO · Architecture / Interior / Landscape / Visual Direction</small>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
